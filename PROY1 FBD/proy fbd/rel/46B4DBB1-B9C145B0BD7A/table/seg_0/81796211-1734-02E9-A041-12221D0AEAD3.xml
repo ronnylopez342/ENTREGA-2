@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81796211-1734-02E9-A041-12221D0AEAD3" name="CIUDAD">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>A9357C0D-8A19-FD85-E4ED-96589026A60F</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ciudad" id="3030B546-6DB4-810B-CF96-87A335D86772">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>7E31DF61-E4A2-A998-37E9-A8A452C8FD19</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="B30120F7-899B-54CB-0B81-7EDA215A7E9A">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>AF53E72F-E230-BC50-44D6-17C93EA21F92</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC4F9B45-7CC2-CDBB-5B10-E7BB66A30505" name="CIUDAD_PK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>596FB022-059E-2AF8-541A-96F957A39CB5</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3030B546-6DB4-810B-CF96-87A335D86772"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

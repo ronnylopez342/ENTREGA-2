@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4C838891-4F13-7E19-508B-EA929845A09F" name="HOTEL_TIPO_HAB_COMODIDAD">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 03:45:19 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_hotel" id="36A94DA3-A249-820E-57F5-CDA7129175EA">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:01:03 UTC</createdTime>
+<generatorID>3F7E5A75-DF68-C98B-71A9-3EF054A2A61D</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<referedAttribute>416B0FD4-2E95-B3CF-7470-1C3603A6E6CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo" id="E804195C-0265-6FEB-AD27-A8D1061EECE2">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:01:03 UTC</createdTime>
+<generatorID>3F7E5A75-DF68-C98B-71A9-3EF054A2A61D</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<referedAttribute>4A0EF723-FD85-A948-ACAB-EE9E5A32B612</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comodidad" id="96113E2C-3E76-1752-0B18-BC1774C82452">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:02:41 UTC</createdTime>
+<generatorID>775CA7AA-4A93-E2C8-C8DA-5708F8CB42BA</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<referedAttribute>DA870972-4621-23AD-5AA5-24D279D68BCB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FFCBBF85-CFBE-F1A1-ECF6-1BD00C801EF6" name="HOTEL_TIPO_HAB_COMODIDAD PK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:02:12 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>36A94DA3-A249-820E-57F5-CDA7129175EA</attributeRef>
+<attributeRef>E804195C-0265-6FEB-AD27-A8D1061EECE2</attributeRef>
+<attributeRef>96113E2C-3E76-1752-0B18-BC1774C82452</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

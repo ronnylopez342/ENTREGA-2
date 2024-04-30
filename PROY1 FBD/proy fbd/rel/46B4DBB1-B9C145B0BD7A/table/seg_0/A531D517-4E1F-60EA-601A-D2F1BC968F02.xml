@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A531D517-4E1F-60EA-601A-D2F1BC968F02" name="SERVICIO">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>1C591753-ED2D-D36E-FB35-4432053D6E76</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_servicio" id="2C2561C2-C4ED-899F-AEF2-B0DE865853B4">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>1B77153F-55CB-BCB8-2896-F2B32B937DC2</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="DFF59C4B-B327-1E21-E21E-571E72410B22">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>D8D54F7C-1BF5-FD2E-EE62-1A8D682B5316</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion_corta" id="BBCBECF2-5157-CFEF-8955-FF6CD670B6AF">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>E416EA12-2DDB-2945-B569-0726001FCB76</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_costo" id="A701E0F0-B0AD-151E-B760-3879970BB42A">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>5CD8F82C-847B-9363-2689-0077FDAADAD8</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="171D9B09-C45B-125A-6A9B-18E66CC585B4">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>07F9B35E-D104-B489-CA2A-54F7D1CA8BD6</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="frecuencia_aplicacion" id="2ECA9032-DD48-56C3-4BFB-DFCAA269B19C">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>53DA6052-A58A-68B6-327E-CDEA24B59484</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30BB85AE-024B-5F19-3C72-C686CACEAD0B" name="SERVICIO_PK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>B58DDD90-BEF5-1EAA-A642-9B033A7A2B49</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C2561C2-C4ED-899F-AEF2-B0DE865853B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

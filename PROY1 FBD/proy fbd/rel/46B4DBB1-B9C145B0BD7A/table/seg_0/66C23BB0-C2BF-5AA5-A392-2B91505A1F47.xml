@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66C23BB0-C2BF-5AA5-A392-2B91505A1F47" name="DETALLE_SERVICIO_RESERVA">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>C1D754D0-8B15-333A-1738-63E3FCE93BB9</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cantidad" id="8499042F-7499-1AE2-BD9E-94D887A1244B">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>C14DB114-8214-04DF-D0B1-C926AD20A047</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_unitario" id="751E3776-8190-0BA0-BF73-BA6A063F92DD">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>D88FBA13-1FEF-2F2D-3FB9-82369969B2A9</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESERVA_id_reserva" id="020FA748-612B-EE4F-0AE5-DBEBC2E51F4C">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>0C254B4A-BCA7-CF3A-9C4A-1D6266965CCB</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED64D0F0-9E81-9C73-78CD-EDA7C2D33A98" referredColumn="CAE11049-C5BC-B37C-266C-84841FBD995E"/>
+</associations>
+</Column>
+<Column name="SERVICIO_id_servicio" id="800929CA-337F-F09F-B7FE-FEF0751F01D4">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>D262B47D-03C9-472F-3514-95DBA006B9B5</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56AA67B9-5082-FC36-6811-F9644DC0E15D" referredColumn="2C2561C2-C4ED-899F-AEF2-B0DE865853B4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39C27F02-82BD-A82B-0275-4253BB6B89D5" name="DETALLE_SERVICIO_RESERVA_PK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>45217A21-5F3B-F452-90E8-B4F6FC0CF77B</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="800929CA-337F-F09F-B7FE-FEF0751F01D4"/>
+<colUsage columnID="020FA748-612B-EE4F-0AE5-DBEBC2E51F4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="422EC957-9DBF-77FF-5678-EC1A8750F2AE" name="DETALLE_SERVICIO_RESERVA_RESERVA_FK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>1F824411-FF21-AA23-BE38-A11B0A4C6E74</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="020FA748-612B-EE4F-0AE5-DBEBC2E51F4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A3C389D-D4C2-99EA-6F8A-62A1963F5948" name="DETALLE_SERVICIO_RESERVA_SERVICIO_FK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>9B8CF836-453B-7FFF-2114-AB588DA0ED01</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="800929CA-337F-F09F-B7FE-FEF0751F01D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

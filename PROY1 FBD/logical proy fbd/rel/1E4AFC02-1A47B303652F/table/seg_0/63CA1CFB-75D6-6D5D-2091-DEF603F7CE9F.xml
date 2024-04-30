@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63CA1CFB-75D6-6D5D-2091-DEF603F7CE9F" name="SERVICIO">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>1C591753-ED2D-D36E-FB35-4432053D6E76</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_servicio" id="5F196E8D-E4F7-04A1-1746-8F2CFEA6EDF1">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>1B77153F-55CB-BCB8-2896-F2B32B937DC2</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="87D1A498-038D-FA88-CE54-70BA86504725">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>D8D54F7C-1BF5-FD2E-EE62-1A8D682B5316</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion_corta" id="41647DA9-895A-8FAF-BE44-96FFFE29867F">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>E416EA12-2DDB-2945-B569-0726001FCB76</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_costo" id="9D6F3455-2B79-82D5-CE89-33C751D7ABFE">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>5CD8F82C-847B-9363-2689-0077FDAADAD8</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="348E9FF6-2E23-9E8D-91C9-B6258DB796CA">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>07F9B35E-D104-B489-CA2A-54F7D1CA8BD6</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="frecuencia_aplicacion" id="B1BD8810-61B0-EEDB-82D9-F20FEB0F759B">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>53DA6052-A58A-68B6-327E-CDEA24B59484</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6307A19C-2A58-98D4-A489-55EC17DC8B17" name="SERVICIO_PK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>B58DDD90-BEF5-1EAA-A642-9B033A7A2B49</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F196E8D-E4F7-04A1-1746-8F2CFEA6EDF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

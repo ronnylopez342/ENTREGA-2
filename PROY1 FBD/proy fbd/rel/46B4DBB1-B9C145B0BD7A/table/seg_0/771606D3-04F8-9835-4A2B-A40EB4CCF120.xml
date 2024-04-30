@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="771606D3-04F8-9835-4A2B-A40EB4CCF120" name="ADMINISTRADOR">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>B6C76284-7AFB-4C56-81B7-236968B62EF7</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="607EF6F0-CFA3-0991-71B8-C606816A723C">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>8655DDE3-3D93-7557-E586-D1640F6C6A28</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05F8B905-5452-32DD-8B9C-6DD5F30562C1" referredColumn="8C1E9D23-5DE7-6CBA-0423-7E9C501B0107"/>
+</associations>
+</Column>
+<Column name="nivel_acceso" id="BE6E1B71-90C9-425B-C2A4-7ACC2EABE747">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>F81A1BB3-90E1-9AC0-F0E3-DE07C8E7DAC2</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F0C87D7-BA5A-2F3D-9FDB-489201A150A6" name="ADMINISTRADOR_PK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>AE0E9686-B513-89F5-E504-20797E752313</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="607EF6F0-CFA3-0991-71B8-C606816A723C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27674E3C-440D-54B3-0A4C-F76ABA968985" name="ADMINISTRADOR_USUARIO_FK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 19:09:45 UTC</createdTime>
+<generatorID>6CD8DBFA-E8C2-CCDF-EE90-EAE6616714F0</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="607EF6F0-CFA3-0991-71B8-C606816A723C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

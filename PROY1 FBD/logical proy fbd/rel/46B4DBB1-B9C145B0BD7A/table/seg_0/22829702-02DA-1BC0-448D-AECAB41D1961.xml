@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22829702-02DA-1BC0-448D-AECAB41D1961" name="TIPO_CAMA">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:40:59 UTC</createdTime>
+<generatorID>A5076225-ACB1-99C7-9466-933DAB313507</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo_cama" id="9E79D63C-171F-AF9B-4009-FEBEABAA547E">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:40:59 UTC</createdTime>
+<generatorID>6BB28F10-7817-6F3F-B2EB-DD7F7BD2E727</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="7C56B58C-242E-5671-1E20-8CE4EBD2786D">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:40:59 UTC</createdTime>
+<generatorID>400E5F45-0655-E97C-4764-A476A882C106</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2291B2D-7C10-1EDF-FAEF-AC717DC4EC4F" name="TIPO_CAMA_PK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:40:59 UTC</createdTime>
+<generatorID>A76F5F7E-93E7-57F7-2A72-E0AF75589368</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E79D63C-171F-AF9B-4009-FEBEABAA547E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

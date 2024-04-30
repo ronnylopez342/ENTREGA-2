@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3A47B6D-4CC7-CB9E-9EE6-608FB3B3863F" name="USUARIO">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>66CAB046-75BC-5562-A275-D5D284F852F7</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="7E239E69-1189-B85D-1894-803DD63647AF">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>8655DDE3-3D93-7557-E586-D1640F6C6A28</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="C8436080-C897-3DAF-77B1-71CD116AEFEC">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>334A5CB5-267F-5085-CF05-26C2BD504D42</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="C85500F1-EE52-D15A-478C-AA6B3B811B3A">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>2859F310-3621-14CD-D2C5-8E007885A095</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rol" id="84D94765-28FF-BED6-9E75-D2C20AC8962C">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>8719107F-CC3E-4918-BBAD-3B8702F0EFE2</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69EB4961-FC08-C95F-BFC6-0F826762A340" name="USUARIO_PK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>AE0E9686-B513-89F5-E504-20797E752313</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E239E69-1189-B85D-1894-803DD63647AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

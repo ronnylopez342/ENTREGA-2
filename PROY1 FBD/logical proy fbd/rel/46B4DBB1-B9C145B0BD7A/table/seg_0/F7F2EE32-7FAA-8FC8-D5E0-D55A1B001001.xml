@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7F2EE32-7FAA-8FC8-D5E0-D55A1B001001" name="CLIENTEv2">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:40:59 UTC</createdTime>
+<generatorID>9E3ED34E-A227-0F50-61D9-3B228D026283</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="C2F2D78C-069A-45FF-2CC1-E2369B9D8EAE">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:40:59 UTC</createdTime>
+<generatorID>8655DDE3-3D93-7557-E586-D1640F6C6A28</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81C023A5-C00A-9A84-5E67-72F87EA1F50C" referredColumn="8C1E9D23-5DE7-6CBA-0423-7E9C501B0107"/>
+</associations>
+</Column>
+<Column name="num_documento" id="E7970740-A0E2-1746-9218-EF2828F480A6">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:40:59 UTC</createdTime>
+<generatorID>86C13B31-418A-4EF7-D566-68C5FA5C494C</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_documento" id="75C80B33-1A92-1C21-27D6-55C8A99CC60F">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:40:59 UTC</createdTime>
+<generatorID>5A77BCED-0B25-5709-A2B3-56682E6390F6</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombres" id="88DC2079-30E9-2C0F-E794-46DD5C555BFB">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:40:59 UTC</createdTime>
+<generatorID>FE75A84E-1C8E-B959-1C7F-72950AB7DEBD</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos" id="7B79A813-1241-C5A2-9BB1-50BB8631859D">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:40:59 UTC</createdTime>
+<generatorID>8B30BE44-D4CC-727E-0D14-44B170BD8CB0</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="54BBE527-B316-5907-1631-773959073A01">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:40:59 UTC</createdTime>
+<generatorID>F9E88A34-A347-5F61-3453-2E627EAD0F29</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="070008C6-B6A5-99A7-66C4-F706CBAE2A12" name="CLIENTEv1_PK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:40:59 UTC</createdTime>
+<generatorID>AE0E9686-B513-89F5-E504-20797E752313</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2F2D78C-069A-45FF-2CC1-E2369B9D8EAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11CB3935-79D8-9738-79A3-D5696FD07B30" name="CLIENTEv1_USUARIO_FK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:40:59 UTC</createdTime>
+<generatorID>06F3A6C5-1AFB-B856-AF72-EF5FEF8670BE</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2F2D78C-069A-45FF-2CC1-E2369B9D8EAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

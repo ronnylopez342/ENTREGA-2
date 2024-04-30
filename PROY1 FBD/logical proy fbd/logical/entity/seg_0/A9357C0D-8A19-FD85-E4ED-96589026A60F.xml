@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9357C0D-8A19-FD85-E4ED-96589026A60F" name="CIUDAD">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 13:55:38 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ciudad" id="7E31DF61-E4A2-A998-37E9-A8A452C8FD19">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 13:55:56 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="AF53E72F-E230-BC50-44D6-17C93EA21F92">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 13:58:18 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="596FB022-059E-2AF8-541A-96F957A39CB5" name="CIUDAD PK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 13:56:10 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7E31DF61-E4A2-A998-37E9-A8A452C8FD19</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

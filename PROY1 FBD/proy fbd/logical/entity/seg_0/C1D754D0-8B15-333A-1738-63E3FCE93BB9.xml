@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C1D754D0-8B15-333A-1738-63E3FCE93BB9" name="DETALLE_SERVICIO_RESERVA">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 16:50:49 UTC</createdTime>
+<ownerDesignName>proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cantidad" id="C14DB114-8214-04DF-D0B1-C926AD20A047">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 16:51:14 UTC</createdTime>
+<ownerDesignName>proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio_unitario" id="D88FBA13-1FEF-2F2D-3FB9-82369969B2A9">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 17:14:57 UTC</createdTime>
+<ownerDesignName>proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_reserva" id="0C254B4A-BCA7-CF3A-9C4A-1D6266965CCB">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 17:16:42 UTC</createdTime>
+<generatorID>1F824411-FF21-AA23-BE38-A11B0A4C6E74</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<referedAttribute>4C012CBA-082C-BD66-2761-D22A921367D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_servicio" id="D262B47D-03C9-472F-3514-95DBA006B9B5">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 17:16:53 UTC</createdTime>
+<generatorID>9B8CF836-453B-7FFF-2114-AB588DA0ED01</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<referedAttribute>1B77153F-55CB-BCB8-2896-F2B32B937DC2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="45217A21-5F3B-F452-90E8-B4F6FC0CF77B" name="DETALLE_SERVICIO_RESERVA PK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 17:28:10 UTC</createdTime>
+<ownerDesignName>proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D262B47D-03C9-472F-3514-95DBA006B9B5</attributeRef>
+<attributeRef>0C254B4A-BCA7-CF3A-9C4A-1D6266965CCB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

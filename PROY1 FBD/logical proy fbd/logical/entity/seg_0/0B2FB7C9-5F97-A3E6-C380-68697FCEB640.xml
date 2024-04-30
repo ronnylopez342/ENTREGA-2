@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B2FB7C9-5F97-A3E6-C380-68697FCEB640" name="RESERVA">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 14:31:54 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_reserva" id="4C012CBA-082C-BD66-2761-D22A921367D5">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 14:32:20 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_entrada" id="5BEB2E45-5A10-32B0-66AF-FF4DB83F6CE8">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 14:35:31 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_salida" id="341E8829-58B3-7583-1602-550AD79A5322">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 14:36:18 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_adultos" id="F97B4C4D-7F58-2344-7877-5AF870E10F70">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 14:36:39 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_menores_3_anios" id="39363D81-08BA-1634-6A05-146ED96D6440">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 14:37:26 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio_total" id="C71396BA-BEBC-2FBE-1277-B3DF836E79CE">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 14:38:00 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_reserva" id="59210292-9635-06AF-B6DD-6F1FE695866C">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 14:38:19 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_confirmacion" id="818CF02D-95ED-B509-96D0-216EF043D92D">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 03:50:12 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_temporada" id="5EDDF41D-CDBB-1FE5-39E3-E6939917DA39">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:04:03 UTC</createdTime>
+<generatorID>F0B757CA-F142-A4C9-6188-4512BBA04812</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<referedAttribute>4216786F-5A94-311B-F1B1-4515A343B5EA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_hotel" id="C67B862F-A6BA-8914-4A74-D3BB899C2698">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:05:25 UTC</createdTime>
+<generatorID>1001F600-EF1D-D9F2-93F5-5BEA7497F6FB</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<referedAttribute>416B0FD4-2E95-B3CF-7470-1C3603A6E6CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo" id="377D064E-82C9-11C5-BBCE-B263A9F5E996">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:05:25 UTC</createdTime>
+<generatorID>1001F600-EF1D-D9F2-93F5-5BEA7497F6FB</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<referedAttribute>4A0EF723-FD85-A948-ACAB-EE9E5A32B612</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="A4B40059-F3CD-DFF3-F862-CDBA14E0099E">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:30:33 UTC</createdTime>
+<generatorID>F85C83E5-6333-B3A5-7C6B-5BB54B6D36F5</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<referedAttribute>8655DDE3-3D93-7557-E586-D1640F6C6A28</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B19FFAE0-AC3C-3C04-485C-4A21D117DD62" name="RESERVA PK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 14:34:03 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4C012CBA-082C-BD66-2761-D22A921367D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

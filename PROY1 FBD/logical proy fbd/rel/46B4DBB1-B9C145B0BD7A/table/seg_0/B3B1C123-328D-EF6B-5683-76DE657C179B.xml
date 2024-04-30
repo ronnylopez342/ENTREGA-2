@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3B1C123-328D-EF6B-5683-76DE657C179B" name="HOTEL_TIPO_HAB_COMODIDAD">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:40:59 UTC</createdTime>
+<generatorID>4C838891-4F13-7E19-508B-EA929845A09F</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HOTEL_TIPO_HABITACION_HOTEL_id_hotel" id="15B95230-F816-5827-157B-C9A99FFF9B70">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:40:59 UTC</createdTime>
+<generatorID>36A94DA3-A249-820E-57F5-CDA7129175EA</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39FF4658-AF28-CF40-4789-3FA37D573C13" referredColumn="794358C6-B534-3C51-BDC0-408490810004"/>
+</associations>
+</Column>
+<Column name="HOTEL_TIPO_HABITACION_TIPO_HABITACION_id_tipo" id="94F19900-EBD5-B61A-310A-E5F64369BB29">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:40:59 UTC</createdTime>
+<generatorID>E804195C-0265-6FEB-AD27-A8D1061EECE2</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39FF4658-AF28-CF40-4789-3FA37D573C13" referredColumn="00698B28-C12A-96B7-E2E2-4057C232DE02"/>
+</associations>
+</Column>
+<Column name="COMODIDAD_id_comodidad" id="D24A5C36-8B08-A92F-4B9B-FABC7E4F81AC">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:40:59 UTC</createdTime>
+<generatorID>96113E2C-3E76-1752-0B18-BC1774C82452</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89D183A9-A922-1527-0264-9756288289EA" referredColumn="64306AA6-2C4E-9D89-984D-8F84D295BA3A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5966FC20-84D5-74AC-3AE5-D3574D408C1E" name="HOTEL_TIPO_HAB_COMODIDAD_PK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:40:59 UTC</createdTime>
+<generatorID>FFCBBF85-CFBE-F1A1-ECF6-1BD00C801EF6</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15B95230-F816-5827-157B-C9A99FFF9B70"/>
+<colUsage columnID="94F19900-EBD5-B61A-310A-E5F64369BB29"/>
+<colUsage columnID="D24A5C36-8B08-A92F-4B9B-FABC7E4F81AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C554D84F-C54D-CABA-4027-6AE71B4F001D" name="HOTEL_TIPO_HAB_COMODIDAD_HOTEL_TIPO_HABITACION_FK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:40:59 UTC</createdTime>
+<generatorID>3F7E5A75-DF68-C98B-71A9-3EF054A2A61D</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15B95230-F816-5827-157B-C9A99FFF9B70"/>
+<colUsage columnID="94F19900-EBD5-B61A-310A-E5F64369BB29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36CE629C-9A7A-99CA-DE75-876391CCB3B1" name="HOTEL_TIPO_HAB_COMODIDAD_COMODIDAD_FK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:40:59 UTC</createdTime>
+<generatorID>775CA7AA-4A93-E2C8-C8DA-5708F8CB42BA</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D24A5C36-8B08-A92F-4B9B-FABC7E4F81AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

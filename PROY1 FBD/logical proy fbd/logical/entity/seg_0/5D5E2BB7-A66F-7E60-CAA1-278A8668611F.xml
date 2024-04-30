@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5D5E2BB7-A66F-7E60-CAA1-278A8668611F" name="HOTEL_TIPO_HABITACION">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 03:37:34 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombre_tipo" id="0B044F52-7C2F-D5F3-28C2-476909DAB615">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 03:37:50 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costo_base_alta" id="81B12308-8F28-A914-C250-1E01C26ED9C0">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 03:38:11 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costo_base_baja" id="3F991770-41A0-88D0-2412-A8C7B517A302">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 03:38:43 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad_disponible" id="0E41216C-3088-54D9-8B55-A9513A7EE5E8">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 03:39:15 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_hotel" id="416B0FD4-2E95-B3CF-7470-1C3603A6E6CA">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 03:55:27 UTC</createdTime>
+<generatorID>2CD505B0-BDB3-323F-D42D-A6C9ACEBE456</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<referedAttribute>194AAE4C-027C-9045-4E9B-7923D7E92B6F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo" id="4A0EF723-FD85-A948-ACAB-EE9E5A32B612">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 03:56:36 UTC</createdTime>
+<generatorID>46837AA5-DF8C-CEF9-C8C3-4ABB8870E56A</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<referedAttribute>BE5F5BAE-2947-7780-7F98-32B6DA94EFC9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BAD281AF-0BDB-A49C-4715-B294E7B8CDBB" name="HOTEL_TIPO_HABITACION PK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 03:56:02 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>416B0FD4-2E95-B3CF-7470-1C3603A6E6CA</attributeRef>
+<attributeRef>4A0EF723-FD85-A948-ACAB-EE9E5A32B612</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

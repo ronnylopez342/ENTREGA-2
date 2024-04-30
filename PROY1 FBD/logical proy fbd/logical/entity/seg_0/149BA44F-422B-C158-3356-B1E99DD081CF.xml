@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="149BA44F-422B-C158-3356-B1E99DD081CF" name="DISPONIBILIDAD_SERVICIO">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 03:47:14 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sobrecosto" id="0C6C0577-506A-5AE4-CF0E-D5D3695D6A49">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 03:47:30 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_hotel" id="6353FB6A-A43F-DE44-DD83-685F226211EF">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:03:26 UTC</createdTime>
+<generatorID>5F8252D3-DDA0-ABD3-F1FA-03EC4AE4ED93</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<referedAttribute>416B0FD4-2E95-B3CF-7470-1C3603A6E6CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo" id="63A0AA29-213E-5574-517A-3761FA2EC96B">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:03:26 UTC</createdTime>
+<generatorID>5F8252D3-DDA0-ABD3-F1FA-03EC4AE4ED93</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<referedAttribute>4A0EF723-FD85-A948-ACAB-EE9E5A32B612</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_servicio" id="70C64B89-08B0-5BE2-380C-416793627FAC">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:03:41 UTC</createdTime>
+<generatorID>76FA64D4-1871-E49D-9934-AA57181A185F</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<referedAttribute>1B77153F-55CB-BCB8-2896-F2B32B937DC2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE05DFE0-B1C9-6D64-EA39-F372E4260063" name="DISPONIBILIDAD_SERVICIO PK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:03:30 UTC</createdTime>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6353FB6A-A43F-DE44-DD83-685F226211EF</attributeRef>
+<attributeRef>63A0AA29-213E-5574-517A-3761FA2EC96B</attributeRef>
+<attributeRef>70C64B89-08B0-5BE2-380C-416793627FAC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

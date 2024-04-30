@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="56DB4194-2F90-1706-231C-72BB46A5CE8F" containerWithKeyObject="C3B958C5-64D4-9DF0-D460-0DFE9FCEB2C9" localFKIndex="D1187FF2-78FA-0FDD-E133-20BE9AE26871" name="RESERVA_TEMPORADA_FK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>F0B757CA-F142-A4C9-6188-4512BBA04812</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<referredTableLongName>TEMPORADA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E1554212-1E30-4BC9-C301-A8C63322AF98</referredTableID>
+<keyObject>C84CFAD7-6735-FBDF-413F-92131A8DEA99</keyObject>
+<referredKeyID>C84CFAD7-6735-FBDF-413F-92131A8DEA99</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_temporada</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

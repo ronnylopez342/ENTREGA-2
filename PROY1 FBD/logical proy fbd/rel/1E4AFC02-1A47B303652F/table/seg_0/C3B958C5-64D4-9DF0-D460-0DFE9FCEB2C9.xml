@@ -1,0 +1,208 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3B958C5-64D4-9DF0-D460-0DFE9FCEB2C9" name="RESERVA">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>0B2FB7C9-5F97-A3E6-C380-68697FCEB640</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_reserva" id="B2C4F7A9-90E3-98AA-B17B-1C25DDB630FC">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>4C012CBA-082C-BD66-2761-D22A921367D5</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_entrada" id="AD8BD4E9-33F0-6C42-5229-F801C2640CF3">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>5BEB2E45-5A10-32B0-66AF-FF4DB83F6CE8</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_salida" id="A6A7525E-491B-E4F8-DCD8-21E8BBF17604">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>341E8829-58B3-7583-1602-550AD79A5322</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_adultos" id="A681EB32-3543-779D-1BDB-A2F2058136E1">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>F97B4C4D-7F58-2344-7877-5AF870E10F70</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_menores_3_anios" id="551D3F0F-5DF6-1E89-8982-242892A3C2AF">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>39363D81-08BA-1634-6A05-146ED96D6440</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_total" id="0F60C06A-E920-9DFE-80F8-8534C3339B5F">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>C71396BA-BEBC-2FBE-1277-B3DF836E79CE</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_reserva" id="9A5988F1-3520-788B-1108-96C8E96E468B">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>59210292-9635-06AF-B6DD-6F1FE695866C</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_confirmacion" id="DC237FD5-1DE2-8C17-BE8D-73CD3DCFFB7D">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>818CF02D-95ED-B509-96D0-216EF043D92D</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEMPORADA_id_temporada" id="01459D85-B512-74DE-96C1-EE21934D0585">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>5EDDF41D-CDBB-1FE5-39E3-E6939917DA39</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56DB4194-2F90-1706-231C-72BB46A5CE8F" referredColumn="FE34772C-C66C-9B54-24C0-467A87996845"/>
+</associations>
+</Column>
+<Column name="HOTEL_TIPO_HABITACION_HOTEL_id_hotel" id="E7149485-2C2F-D0F5-A410-BDAC3BCD43A0">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>C67B862F-A6BA-8914-4A74-D3BB899C2698</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="402D61E9-E6A8-3163-8853-8BC8FC25F4CB" referredColumn="4CF674F1-9D23-29F9-5AD8-E7925F35E0F0"/>
+</associations>
+</Column>
+<Column name="HOTEL_TIPO_HABITACION_TIPO_HABITACION_id_tipo" id="5B6F8156-8652-E7FD-3661-47FC894595A7">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>377D064E-82C9-11C5-BBCE-B263A9F5E996</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="402D61E9-E6A8-3163-8853-8BC8FC25F4CB" referredColumn="D35D3C44-9B91-5ADF-2A21-56A8B9A3EF8F"/>
+</associations>
+</Column>
+<Column name="CLIENTE_id_usuario" id="6AAECE3B-D003-DF3E-FB38-F4C7038541F9">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>A4B40059-F3CD-DFF3-F862-CDBA14E0099E</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2D6E018-C88D-A77A-3A5D-981E2B401B93" referredColumn="4F7B7CDA-CC0A-9BE7-3F5B-FA00C78EFC64"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64B9A2B1-362C-B18B-CBA3-99233532BB16" name="RESERVA_PK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>B19FFAE0-AC3C-3C04-485C-4A21D117DD62</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2C4F7A9-90E3-98AA-B17B-1C25DDB630FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1187FF2-78FA-0FDD-E133-20BE9AE26871" name="RESERVA_TEMPORADA_FK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>F0B757CA-F142-A4C9-6188-4512BBA04812</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01459D85-B512-74DE-96C1-EE21934D0585"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1A07D16-4C27-E1F4-3422-68A9BF5D0494" name="RESERVA_HOTEL_TIPO_HABITACION_FK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>1001F600-EF1D-D9F2-93F5-5BEA7497F6FB</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7149485-2C2F-D0F5-A410-BDAC3BCD43A0"/>
+<colUsage columnID="5B6F8156-8652-E7FD-3661-47FC894595A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E520914-76F7-6AFC-EBEB-19A1F98CC667" name="RESERVA_CLIENTE_FK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>F85C83E5-6333-B3A5-7C6B-5BB54B6D36F5</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AAECE3B-D003-DF3E-FB38-F4C7038541F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

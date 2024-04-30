@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EDE63B43-25D5-71E5-B893-E634E3405E27" containerWithKeyObject="38C5E146-5DD4-BED4-738A-74534DA320F7" localFKIndex="11BDAABE-A209-AF1C-F719-5B94A36CF491" name="HOTEL_TIPO_HAB_CAMA_HOTEL_TIPO_HABITACION_FK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>4E2FBE51-94E5-565B-1D0C-82F1460D1676</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<referredTableLongName>HOTEL_TIPO_HABITACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1073904F-017C-E077-07C3-ADBF06FA0123</referredTableID>
+<keyObject>AA74A4C9-1968-E27D-CC99-B94EC1ADD9CB</keyObject>
+<referredKeyID>AA74A4C9-1968-E27D-CC99-B94EC1ADD9CB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>HOTEL_id_hotel,TIPO_HABITACION_id_tipo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

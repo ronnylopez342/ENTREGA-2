@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38C5E146-5DD4-BED4-738A-74534DA320F7" name="HOTEL_TIPO_HAB_CAMA">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>ACC973A3-87A7-C04C-D42B-3D035432C134</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cantidad" id="342A34CC-4970-4B7A-A901-7E78B448A8E2">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>9B00339B-DA85-05E4-BE84-80184E1D20A6</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOTEL_TIPO_HABITACION_HOTEL_id_hotel" id="66A270BF-C9B7-F362-8788-8F07AEF852A5">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>9BB71180-2B00-6D95-F378-2650FD87AF61</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDE63B43-25D5-71E5-B893-E634E3405E27" referredColumn="4CF674F1-9D23-29F9-5AD8-E7925F35E0F0"/>
+</associations>
+</Column>
+<Column name="HOTEL_TIPO_HABITACION_TIPO_HABITACION_id_tipo" id="A4B020C9-13E2-0EBA-BDFA-ABB5DC27A63B">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>3F50974E-BBC2-E362-45DE-465AB896FA2D</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDE63B43-25D5-71E5-B893-E634E3405E27" referredColumn="D35D3C44-9B91-5ADF-2A21-56A8B9A3EF8F"/>
+</associations>
+</Column>
+<Column name="TIPO_CAMA_id_tipo_cama" id="F2BC6ACC-6819-BD87-8B6B-E4CF5E9A2129">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>01A66C90-653D-6BAF-BD79-9D3D8B7D3AD7</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D08B00E-48CB-D8B3-36BF-4D20F0D2C824" referredColumn="592D4101-0C10-123C-6996-0DDD54B5CEED"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E0D913C-38D3-E2DA-CC77-4EA4552DAABB" name="HOTEL_TIPO_HAB_CAMA_PK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>14950E8D-880C-D4E4-0E09-22BB9B5C542B</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66A270BF-C9B7-F362-8788-8F07AEF852A5"/>
+<colUsage columnID="A4B020C9-13E2-0EBA-BDFA-ABB5DC27A63B"/>
+<colUsage columnID="F2BC6ACC-6819-BD87-8B6B-E4CF5E9A2129"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11BDAABE-A209-AF1C-F719-5B94A36CF491" name="HOTEL_TIPO_HAB_CAMA_HOTEL_TIPO_HABITACION_FK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>4E2FBE51-94E5-565B-1D0C-82F1460D1676</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66A270BF-C9B7-F362-8788-8F07AEF852A5"/>
+<colUsage columnID="A4B020C9-13E2-0EBA-BDFA-ABB5DC27A63B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E26362C-4226-CA04-C885-C7DE71157267" name="HOTEL_TIPO_HAB_CAMA_TIPO_CAMA_FK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-02 04:54:16 UTC</createdTime>
+<generatorID>B260B682-8FD4-2AC7-CB53-B9F81BC5CFB1</generatorID>
+<ownerDesignName>logical proy fbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2BC6ACC-6819-BD87-8B6B-E4CF5E9A2129"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

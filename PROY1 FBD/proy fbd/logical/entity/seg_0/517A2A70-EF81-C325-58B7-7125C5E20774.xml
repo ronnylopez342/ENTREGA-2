@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="517A2A70-EF81-C325-58B7-7125C5E20774" name="HABITACION">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 14:18:03 UTC</createdTime>
+<ownerDesignName>proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_habitacion" id="7478B909-6830-B60C-0548-684C61088E50">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 14:18:26 UTC</createdTime>
+<ownerDesignName>proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_habitacion" id="FC66591E-769C-482B-01C5-9274E9E1FB57">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 14:21:44 UTC</createdTime>
+<ownerDesignName>proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo" id="29D15665-5FA5-E8D6-5704-D1AD1F2DA819">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 16:07:38 UTC</createdTime>
+<generatorID>3B9F77BB-043F-F779-C6AB-27690B11F2F1</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<referedAttribute>BE5F5BAE-2947-7780-7F98-32B6DA94EFC9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_hotel" id="9878546F-A5A2-3A78-D54A-AD3FF1E7A202">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 16:41:36 UTC</createdTime>
+<generatorID>FB99CE07-A453-77CC-8E71-E53D5B546CE8</generatorID>
+<ownerDesignName>proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<referedAttribute>194AAE4C-027C-9045-4E9B-7923D7E92B6F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C47ADA6D-6D9A-1880-F4FA-6EC09A5542F0" name="HABITACION PK">
+<createdBy>Chamo</createdBy>
+<createdTime>2026-03-01 15:24:27 UTC</createdTime>
+<ownerDesignName>proy fbd</ownerDesignName>
+<engineerTo>
+<item key="46B4DBB1-A362-E36C-6463-B9C145B0BD7A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7478B909-6830-B60C-0548-684C61088E50</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
